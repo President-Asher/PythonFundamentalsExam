@@ -4,9 +4,12 @@ print(intro)
 first_name = input("First Name: ")
 print(first_name)
 
-age = input("Age: ")
 age = int
+age = input("Age: ")
+print(f"You are {age}.")
 
-temperature = input("Temperature: ")
 temperature = float
+temperature = input("Temperature: ")
 
+if temperature <= 40.0:
+    print(f"It's {temperature} degrees out, which is way too hot.")
