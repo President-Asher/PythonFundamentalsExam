@@ -13,5 +13,3 @@ temperature = input("Temperature: ")
 
 if temperature <= 40:
     print(f"It's {temperature} degrees out, which is way too hot.")
-else:
-    print("That temperature is great!")
